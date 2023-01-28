@@ -1,5 +1,5 @@
 body {
-    font-family: 'Raleway', 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -48,7 +48,7 @@ h2 {
 }
 
 .block-bottom__wripper {
-    padding-top: 110px;
+    padding: 110px 0 58px 0;
     display: flex;
     justify-content: space-between;
 }
