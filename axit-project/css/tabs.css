@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+
+.tabs__box {
+    padding: 100px 0 50px 0;
+}
+
+.tabs__wrap {
+    display: flex;
+    text-align: center;
+}
+
+.tabs__tab-wrap {
+    width: 203px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    cursor: pointer; 
+}
+
+.tabs__tab-wrap.active {
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+    background: #fff;
+    top: 1px;
+}
+
+.tabs__tab-wrap span {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;  
+    text-transform: uppercase;
+}
+
+.tabs__tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.tabs__heading {
+    padding: 41px 0;
+}
+
+.tabs__content { 
+    display: flex;
+    border: 1px solid #C6CBCD;
+}
+
+.tabs__heading h3 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.tabs__block-information {
+    max-width: 570px;
+    margin: 0 30px 0 100px;
+    padding-bottom: 54px;
+}
+
+.tabs__text {
+    padding: 27px 0;
+}
+
+.tabs__text h5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.tabs__btn {
+    background-color: #EC7979;
+    color: #fff;
+    border: none;
+    width: 270px;
+    height: 58px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    padding: 0;
+}
+
+.tabs__picture {
+    max-height: 500px;
+}
