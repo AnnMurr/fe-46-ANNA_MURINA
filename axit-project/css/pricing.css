@@ -1,0 +1,97 @@
+.pricing {
+    background-color: #F5F5F5;
+}
+
+.pricing__header {
+    padding: 54px 0;
+    text-align: center;
+}
+
+.pricing__header h2 {
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400;
+}
+
+.pricing__subtitle {
+    padding: 40px 0;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.pricing__subtitle h5 {
+    color: #86878B;
+    text-align: center;
+}
+
+.cards__wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 39px 0 50px 0;
+}
+
+.card {
+    max-width: 100%;
+    width: 370px;
+}
+
+.card__rate-name {
+    color: #fff;    
+    height: 60px;
+}
+
+.card__rate-name h4 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;  
+}
+
+.card__rate-name,
+.card__price,
+.card__slogan {
+    background-color: #333;
+    border: 2px solid #F5F5F5;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card__price {
+    height: 100px;
+    color: #fff;
+}
+
+.card__price h3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.card__slogan {
+    color: rgba(255, 255, 255, 0.5);
+    height: 50px;
+}
+
+.card__plan-benifit {
+    border: 2px solid #F5F5F5;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: #86878B;
+}
+
+.card.card_active {
+    box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
+    transform: translate3d(0px,-20px,100px);
+}
