@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/tabs.css">
     <link rel="stylesheet" href="./css/pricing.css">
+    <link rel="stylesheet" href="./css/reset.css">
     <title>Axit</title>
 </head>
 <body>
@@ -19,48 +20,97 @@
             <div class="wrapper">
                 <div class="tabs__box">
                     <div class="tabs__wrap">
-                        <div class="tabs__tab-wrap active">
-                            <div class="tabs__tab">
-                                <span>tab 1</span>
+                        <input type="radio" name="tab-btn" id="tabs_btn-1" checked>
+                        <label for="tabs_btn-1">tab 1</label>
+                        <input type="radio" name="tab-btn" id="tabs_btn-2">
+                        <label for="tabs_btn-2">tab 2</label>
+                        <input type="radio" name="tab-btn" id="tabs_btn-3">
+                        <label for="tabs_btn-3">tab 3</label>             
+                        <div id="tabs__content-first" class="tabs__content-first">
+                            <div class="tabs__content-wrap">       
+                                <div class="tabs__block-information">
+                                    <div class="tabs__heading">
+                                        <h3>
+                                            Tabs with soft transitioning effect.
+                                        </h3>
+                                    </div>
+                                    <div class="tabs__text">
+                                        <h5>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br> 
+                                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br> 
+                                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                                            penatibus et magnis dis parturient montes.<br>
+                                            <br>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br> 
+                                            bibendum laoreet.
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="tabs__btn">Download</button>
+                                    </div>  
+                                </div>
+                                <div class="tabs__picture">
+                                    <img src="./img/Rectangle.png" alt="Statue of Liberty">
+                                </div>
+                            </div>
+                        </div>              
+                        <div id="tabs__content-second" class="tabs__content-second"> 
+                            <div class="tabs__content-wrap">         
+                                <div class="tabs__block-information">
+                                    <div class="tabs__heading">
+                                        <h3>
+                                            Tabs with soft transitioning effect.
+                                        </h3>
+                                    </div>
+                                    <div class="tabs__text">
+                                        <h5>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br> 
+                                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br> 
+                                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                                            penatibus et magnis dis parturient montes.<br>
+                                            <br>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br> 
+                                            bibendum laoreet.
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="tabs__btn">Download</button>
+                                    </div>  
+                                </div>
+                                <div class="tabs__picture">
+                                    <img src="./img/Rectangle.png" alt="Statue of Liberty">
+                                </div>
+                            </div>
+                        </div>                  
+                        <div id="tabs__content-third" class="tabs__content-third"> 
+                            <div class="tabs__content-wrap">           
+                                <div class="tabs__block-information">
+                                    <div class="tabs__heading">
+                                        <h3>
+                                            Tabs with soft transitioning effect.
+                                        </h3>
+                                    </div>
+                                    <div class="tabs__text">
+                                        <h5>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br> 
+                                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br> 
+                                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                                            penatibus et magnis dis parturient montes.<br>
+                                            <br>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br> 
+                                            bibendum laoreet.
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="tabs__btn">Download</button>
+                                    </div>  
+                                </div>
+                                <div class="tabs__picture">
+                                    <img src="./img/Rectangle.png" alt="Statue of Liberty">
+                                </div>
                             </div>
                         </div>
-                        <div class="tabs__tab-wrap">
-                            <div class="tabs__tab">
-                                <span>tab 2</span>
-                            </div>
-                        </div>
-                        <div class="tabs__tab-wrap">
-                            <div class="tabs__tab">
-                                <span>tab 3</span>
-                            </div>
-                        </div>                    
-                    </div>
-                    <div class="tabs__content">            
-                        <div class="tabs__block-information">
-                            <div class="tabs__heading">
-                                <h3>
-                                    Tabs with soft transitioning effect.
-                                </h3>
-                            </div>
-                            <div class="tabs__text">
-                                <h5>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br> 
-                                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br> 
-                                    justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                                    penatibus et magnis dis parturient montes.<br>
-                                    <br>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br> 
-                                    bibendum laoreet.
-                                </h5>
-                            </div>
-                            <div>
-                                <button type="button" class="tabs__btn">Download</button>
-                            </div>  
-                        </div>
-                        <div class="tabs__picture">
-                            <img src="./img/Rectangle.png" alt="Statue of Liberty">
-                        </div>
-                    </div>
+                    </div>                   
                 </div>
             </div>
         </div>
@@ -144,7 +194,7 @@
     <!-- pricing -->
     <section class="pricing">
         <div class="container">
-            <div class="wrapper">
+            <div class="pricing__wrapper">
                 <div class="pricing__header">
                     <h2>
                         pricing options
@@ -176,36 +226,14 @@
                                     Free for life
                                 </h5>
                             </div>
-                            <div class="card__plan-benifit">
-                                <h5>
-                                    1 Gb Of Space
-                                </h5>
-                            </div>
-                            <div class="card__plan-benifit">
-                                <h5>
-                                    1 Gb Of Space
-                                </h5>
-                            </div>
-                            <div class="card__plan-benifit">
-                                <h5>
-                                    1 Gb Of Space
-                                </h5>
-                            </div>
-                            <div class="card__plan-benifit">
-                                <h5>
-                                    1 Gb Of Space
-                                </h5>
-                            </div>
-                            <div class="card__plan-benifit">
-                                <h5>
-                                    1 Gb Of Space
-                                </h5>
-                            </div>
-                            <div class="card__plan-benifit">
-                                <h5>
-                                    1 Gb Of Space
-                                </h5>
-                            </div>
+                                <ul class="card__plan-benifit">
+                                    <li>1 gb of space</li>
+                                    <li>1 gb of space</li>
+                                    <li>1 gb of space</li>
+                                    <li>1 gb of space</li>
+                                    <li>1 gb of space</li>
+                                    <li>1 gb of space</li>
+                                </ul>
                         </div>  
                         <div class="card card_active">
                             <div class="card__rate-name">
@@ -223,36 +251,14 @@
                                     Free for life
                                 </h5>
                             </div>
-                            <div class="card__plan-benifit">
-                                <h5>
-                                    1 Gb Of Space
-                                </h5>
-                            </div>
-                            <div class="card__plan-benifit">
-                                <h5>
-                                    1 Gb Of Space
-                                </h5>
-                            </div>
-                            <div class="card__plan-benifit">
-                                <h5>
-                                    1 Gb Of Space
-                                </h5>
-                            </div>
-                            <div class="card__plan-benifit">
-                                <h5>
-                                    1 Gb Of Space
-                                </h5>
-                            </div>
-                            <div class="card__plan-benifit">
-                                <h5>
-                                    1 Gb Of Space
-                                </h5>
-                            </div>
-                            <div class="card__plan-benifit">
-                                <h5>
-                                    1 Gb Of Space
-                                </h5>
-                            </div>
+                            <ul class="card__plan-benifit">
+                                <li>1 gb of space</li>
+                                <li>1 gb of space</li>
+                                <li>1 gb of space</li>
+                                <li>1 gb of space</li>
+                                <li>1 gb of space</li>
+                                <li>1 gb of space</li>
+                            </ul>
                         </div>  
                         <div class="card">
                             <div class="card__rate-name">
@@ -270,36 +276,14 @@
                                     Free for life
                                 </h5>
                             </div>
-                            <div class="card__plan-benifit">
-                                <h5>
-                                    1 Gb Of Space
-                                </h5>
-                            </div>
-                            <div class="card__plan-benifit">
-                                <h5>
-                                    1 Gb Of Space
-                                </h5>
-                            </div>
-                            <div class="card__plan-benifit">
-                                <h5>
-                                    1 Gb Of Space
-                                </h5>
-                            </div>
-                            <div class="card__plan-benifit">
-                                <h5>
-                                    1 Gb Of Space
-                                </h5>
-                            </div>
-                            <div class="card__plan-benifit">
-                                <h5>
-                                    1 Gb Of Space
-                                </h5>
-                            </div>
-                            <div class="card__plan-benifit">
-                                <h5>
-                                    1 Gb Of Space
-                                </h5>
-                            </div>
+                            <ul class="card__plan-benifit">
+                                <li>1 gb of space</li>
+                                <li>1 gb of space</li>
+                                <li>1 gb of space</li>
+                                <li>1 gb of space</li>
+                                <li>1 gb of space</li>
+                                <li>1 gb of space</li>
+                            </ul>
                         </div>  
                     </div>                    
                 </div>                

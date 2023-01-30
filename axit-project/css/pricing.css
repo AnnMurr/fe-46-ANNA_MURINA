@@ -2,6 +2,10 @@
     background-color: #F5F5F5;
 }
 
+.pricing__wrapper {
+    padding-top: 50px;
+}
+
 .pricing__header {
     padding: 54px 0;
     text-align: center;
@@ -80,7 +84,7 @@ h5 {
     height: 50px;
 }
 
-.card__plan-benifit {
+.card__plan-benifit li {
     border: 2px solid #F5F5F5;
     background-color: #fff;
     width: 100%;
