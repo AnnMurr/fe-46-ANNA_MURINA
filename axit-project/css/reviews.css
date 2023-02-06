@@ -1,0 +1,114 @@
+.reviews__container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.reviews__wrapper {
+    padding: 50px 0 64px 0;
+    text-align: center;
+}
+
+.reviews__tittle {
+    padding: 54px 0;
+}
+
+.reviews__tittle h2 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+}
+
+.reviews__text {
+    padding: 40px 0;
+    color: #86878B;
+}
+
+.reviews__cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 43px;
+}
+
+.card {
+    max-width: 370px;
+}
+
+.card__text {
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    width: 100%;
+    height: 180px;
+    color: #86878B;
+    display: flex;
+    align-items: center;
+}
+
+.card__user {
+    display: flex;
+}
+
+.card__avatar {
+    margin-right: 30px;
+}
+
+.card__info {
+    text-align: start;
+}
+
+.card__info-name {
+    padding: 10.5px 0;
+}
+
+.card__info-name h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    font-family: 'Open Sans';
+}
+
+.card__info-proffesion {
+    padding-top: 15px;
+}
+
+.card__message {
+    position: relative;
+    padding-bottom: 66px;
+}
+
+.card__message::after {
+    content: '';
+    position: absolute;
+    left: 70px;
+    border: 15px solid transparent;
+    border-top: 18px solid #E2E2E2;
+    width: 30px;
+}
+
+.last-block {
+    background-color: #000000;
+}
+
+.footer-container {
+    max-width: 569px;
+    margin: 0 auto;
+}
+
+.footer-wripper {
+    padding: 35px 0 27px 0;
+    text-align: center;   
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    padding-top: 28px;
+}
+
+.copyright h5 {
+    color: rgba(255, 255, 255, 0.5);
+}
