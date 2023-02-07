@@ -81,6 +81,7 @@ h5 {
     align-items: center;
     height: 50px;
     color: #86878B;
+    text-transform: capitalize;
 }
 
 .card.card_active {
