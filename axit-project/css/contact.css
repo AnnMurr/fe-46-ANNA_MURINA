@@ -1,24 +1,6 @@
-.contacts__container {
-    max-width: 1170px;
-    margin: 0 auto;
-}
-
 .contacts__wrapper {
     padding: 50px 0;
     text-align: center;
-}
-
-.contacts__header {
-    padding: 54px 0;
-}
-
-.contacts__header h2 {
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
-    color: #000000;
-    text-transform: uppercase;
 }
 
 .contacts__text {

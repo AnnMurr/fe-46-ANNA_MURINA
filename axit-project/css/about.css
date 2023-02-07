@@ -4,36 +4,21 @@ body {
     margin: 0;
 }
 
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-}
-
-.block-top__title {
-    width: 100%;
-    padding: 54px 0;
+.block-top {
     text-align: center;
-}
-
-h1 {
-    font-size: 36px;
-    font-weight: 400;
-}
-
-.divider {
-    display: block;
-    width: 170px;
-    border-bottom: 1px solid #EC7979;
-    margin: 0 auto;
 }
 
 .block-top__subtitle {
     margin-top: 40px;
     text-align: center;
+}
+
+.block-top__subtitle p {
+    font-size: 18px;
     color: #86878B;
 }
 
-h2 {
+.block-bottom__heading h4 {
     font-family: 'Open Sans';
     font-size: 24px;
     font-weight: 700;
@@ -66,4 +51,8 @@ h2 {
 
 .block-bottom__text {
     margin-top: 40px;
+}
+
+.block-bottom__text p {
+    font-size: 18px;
 }

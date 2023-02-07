@@ -6,14 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/about.css">
-    <link rel="stylesheet" href="./css/tabs.css">
-    <link rel="stylesheet" href="./css/pricing.css">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/banner-2.css">
-    <link rel="stylesheet" href="./css/contact.css">
-    <link rel="stylesheet" href="./css/reviews.css">
+    <link rel="stylesheet" href="./index.css">
     <title>Axit</title>
 </head>
 <body>
@@ -123,10 +116,10 @@
         <div class="container">
             <div class="wrapper">
                 <div class="block-top">
-                    <div class="block-top__title">
-                        <h1>
+                    <div class="header">
+                        <h2>
                             WHY THIS IS AWESOME
-                        </h1>
+                        </h2>
                     </div>
                     <div class="block-top__line">
                         <span class="divider"></span>
@@ -144,9 +137,9 @@
                                 <img src="./img/left-page.svg" alt="bulb">
                             </div>
                             <div class="block-bottom__heading">
-                                <h2>
+                                <h4>
                                     Thoughtful Design
-                                </h2>
+                                </h4>
                             </div>
                             <div class="block-bottom__text">
                                 <p>
@@ -160,9 +153,9 @@
                                 <img src="./img/midle-page.svg" alt="bulb">
                             </div>
                             <div class="block-bottom__heading">
-                                <h2>
+                                <h4>
                                     Thoughtful Design
-                                </h2>
+                                </h4>
                             </div>
                             <div class="block-bottom__text">
                                 <p>
@@ -176,9 +169,9 @@
                                 <img src="./img/right-page.svg" alt="bulb">
                             </div>
                             <div class="block-bottom__heading">
-                                <h2>
+                                <h4>
                                     Thoughtful Design
-                                </h2>
+                                </h4>
                             </div>
                             <div class="block-bottom__text">
                                 <p>
@@ -198,7 +191,7 @@
     <section class="pricing">
         <div class="container">
             <div class="pricing__wrapper">
-                <div class="pricing__header">
+                <div class="header">
                     <h2>
                         pricing options
                     </h2>
@@ -293,70 +286,16 @@
             </div>
         </div>
     </section>
-    <section class="banner">
-        <div class="banner__container">
-            <div class="banner__wrapper">
-                <div class="banner__header">
-                    <h2>STYLISH AXURE DESIGN</h2>
-                </div>
-                <div class="divider divider_white"></div>
-                <div class="banner__text">
-                    <h5>Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</h5>
-                </div>
-                <div class="banner__btn">
-                    <button type="button">Download</button>
-                </div>
-            </div>
-        </div>
-    </section> 
-    <section class="contacts">
-        <div class="contacts__container">
-            <div class="contacts__wrapper">
-                <div class="contacts__header">
-                    <h2>contact us</h2>
-                </div>
-                <div class="divider"></div>
-                <div class="contacts__text">
-                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-                </div>
-                <div class="contacts__inputs">
-                    <div class="contacts__user">
-                        <form action="#">
-                          <div class="contacts__user-info">
-                                <label>Name</label>
-                                <input type="text">
-                            </div>
-                            <div class="contacts__user-info">
-                                <label>Email</label>
-                                <input type="email">
-                            </div>
-                            <div class="contacts__user-info">
-                                <label>Passwor</label>
-                                <input type="password">
-                            </div>       
-                        </div>
-                        <div class="contacts__user-message">
-                            <div class="custom-field-text__label">
-                                <label>Message</label>
-                            </div>
-                            <textarea class="message"></textarea>
-                        </div>
-                    </div>
-                    <div class="contacts__btn">
-                        <button type="submit">Send Message</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
     <section class="reviews">
-        <div class="reviews__container">
+        <div class="container">
             <div class="reviews__wrapper">
                 <div class="reviews__header">
-                    <div class="reviews__tittle">
+                    <div class="header">
                         <h2>what our customers are saying</h2>
                     </div>
-                    <div class="divider"></div>
+                    <div>
+                        <span class="divider"></span>
+                    </div>
                     <div class="reviews__text">
                         <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
                     </div>
@@ -444,6 +383,66 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner">
+        <div class="banner__container">
+            <div class="banner__wrapper">
+                <div class="banner__header">
+                    <h2>STYLISH AXURE DESIGN</h2>
+                </div>
+                <div>
+                    <span class="divider divider_white"></span>
+                </div>
+                <div class="banner__text">
+                    <h5>Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</h5>
+                </div>
+                <div class="banner__btn">
+                    <button type="button">Download</button>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <section class="contacts">
+        <div class="container">
+            <div class="contacts__wrapper">
+                <div class="header">
+                    <h2>contact us</h2>
+                </div>
+                <div>
+                    <span class="divider divider_white"></span>
+                </div>
+                <div class="contacts__text">
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                </div>
+                <div class="contacts__inputs">
+                    <div class="contacts__user">
+                        <form action="#">
+                          <div class="contacts__user-info">
+                                <label>Name</label>
+                                <input type="text">
+                            </div>
+                            <div class="contacts__user-info">
+                                <label>Email</label>
+                                <input type="email">
+                            </div>
+                            <div class="contacts__user-info">
+                                <label>Passwor</label>
+                                <input type="password">
+                            </div>       
+                        </div>
+                        <div class="contacts__user-message">
+                            <div class="custom-field-text__label">
+                                <label>Message</label>
+                            </div>
+                            <textarea class="message"></textarea>
+                        </div>
+                    </div>
+                    <div class="contacts__btn">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>

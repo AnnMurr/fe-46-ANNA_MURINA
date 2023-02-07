@@ -1,23 +1,6 @@
-.reviews__container {
-    max-width: 1170px;
-    margin: 0 auto;
-}
-
 .reviews__wrapper {
     padding: 50px 0 64px 0;
     text-align: center;
-}
-
-.reviews__tittle {
-    padding: 54px 0;
-}
-
-.reviews__tittle h2 {
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
-    text-transform: uppercase;
-    font-family: 'Raleway';
 }
 
 .reviews__text {

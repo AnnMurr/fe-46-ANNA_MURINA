@@ -1,0 +1,26 @@
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 54px 0;  
+}
+
+.header h2 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+
+.divider {
+    display: block;
+    width: 170px;
+    border-bottom: 1px solid #EC7979;
+    margin: 0 auto;
+}
+
+.divider_white {
+    border-bottom: 1px solid #fff;
+}
