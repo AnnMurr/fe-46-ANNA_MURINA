@@ -1,0 +1,235 @@
+.menu__container {
+    width: 100%;
+}
+
+.menu__wrapper {
+    background-color: #000;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+.menu__wrapper .logo {
+    padding-left: 115px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav .navigation {
+    display: flex;
+    padding-right: 170px;
+}
+
+.navigation li {
+    list-style: none;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 28px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.navigation li:hover {
+    color: rgba(96, 90, 90, 0.8);
+}
+
+.banner-first__background {
+    background: url(../img/banner-first.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-first__wrapper {
+    padding: 283px 0 185px 0;
+    position: relative;
+}
+
+.banner-first__background::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.axure__heading {
+    padding: 51px 0 55px 0;
+    max-width: 670px; 
+}
+
+.axure__heading h1 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    color: #fff;
+}
+
+.axure__text {
+    padding: 42px 0;
+    max-width: 270px;
+}
+
+.axure__text h5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+}
+
+.axure .divider {
+    margin: 0;
+}
+
+.btn {
+    width: 270px;
+    height: 58px;
+    display: block;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.axure .btn:hover {
+    text-decoration: underline;
+}
+
+.form__wrapper {
+    width: 470px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.form__heading {
+    padding: 29px 0;
+}
+
+.form__heading span {
+    color: #EC7979;
+}
+
+.form__heading h4 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.form__inputs {
+    padding: 45px 50px 75px 50px;
+}
+
+.form__input input {
+    width: 100%;
+    margin-bottom: 33px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    padding-bottom: 16px;
+    height: 38px;
+}
+
+input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD; 
+}
+
+input:focus {
+    outline: none;
+}
+
+.form .btn {
+    background-color: #EC7979;
+    width: 100%;
+    border: none;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.form .btn:hover {
+    background-color: #222222;
+}
+
+.form .btn:focus {
+    font-weight: 700;
+    outline: none;
+}
+
+.social__bacgraund {
+    background-color: #F8EFEF;
+}
+
+.social__block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social__content {
+    max-width: 470px;
+}
+
+.social__heading {
+    padding: 13.5px 0;
+}
+
+.social__heading h4 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.social__text {
+    padding: 18px 0;
+}
+
+.social__text h5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+.social__icons {
+    display: flex;
+    width: 670px;
+    justify-content: space-between;
+    padding: 34px 0;
+    cursor: pointer;
+}
+
+.social__icon {
+    border-bottom: 2px solid transparent;
+}
+
+.social__icon img {
+    width: 70px;
+    height: 70px;
+}
+
+.social__icon:hover {
+    border-bottom: 2px solid rgb(204 204 204);
+}
