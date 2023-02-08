@@ -14,46 +14,47 @@
     height: 211px;
 }
 
-.contacts__user form {
+.contacts__user {
+    margin-right: 30px;
+}
+
+.contacts__user,
+.contacts__user-message {
+    max-width: 571px;
+    width: 100%;
+}
+
+.contacts__form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 571px;
     height: 100%; 
 }
 
-.contacts__user-info input {
+.contacts__form input {
     width: 100%;
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    margin-bottom: 50px;
-    height: 19px; 
+    height: 38px;
+    padding-bottom: 16px; 
 }
 
-.contacts__user-info label,
-.contacts__user-message label {
+.contacts__form input::placeholder,
+.contacts__message::placeholder {
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    color: #BDBDBD;
+    color: #BDBDBD; 
 }
 
-.contacts__user-message,
-.contacts__user-info {
-    text-align: start;   
-}
-
-.contacts__user-info input:focus,
-.contacts__user-message textarea:focus {
+.contacts__form input:focus,
+.contacts__user-message textarea:focus,
+.contacts__btn button:focus {
 	outline: none;
 }
 
-.contacts__user-info {
-    height: 38px;
-}
-
-.contacts__user-message {
+textarea{
     max-width: 569px;
     height: 100%;
 }
@@ -63,12 +64,6 @@
     border: none;
     border-bottom: 1px solid #BDBDBD;
     resize: none;
-    max-height: 193px;
-}
-
-.contacts__user-message textarea {
-    width: 571px;
-    height: 100%;
 }
 
 .contacts__btn {

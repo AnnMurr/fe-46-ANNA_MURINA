@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="./index.css">
     <title>Axit</title>
 </head>
@@ -418,31 +416,19 @@
                 </div>
                 <div class="contacts__inputs">
                     <div class="contacts__user">
-                        <form action="#">
-                          <div class="contacts__user-info">
-                                <label>Name</label>
-                                <input type="text">
+                        <form class="contacts__form" action="#">
+                                <input type="text" placeholder="Name">            
+                                <input type="email" placeholder="Email">        
+                                <input type="password" placeholder="Password">      
                             </div>
-                            <div class="contacts__user-info">
-                                <label>Email</label>
-                                <input type="email">
+                            <div class="contacts__user-message">
+                                <textarea class="contacts__message" placeholder="Message"></textarea>
                             </div>
-                            <div class="contacts__user-info">
-                                <label>Passwor</label>
-                                <input type="password">
-                            </div>       
                         </div>
-                        <div class="contacts__user-message">
-                            <div class="custom-field-text__label">
-                                <label>Message</label>
+                            <div class="contacts__btn">
+                                <button type="submit">Send Message</button>
                             </div>
-                            <textarea class="message"></textarea>
-                        </div>
-                    </div>
-                    <div class="contacts__btn">
-                        <button type="submit">Send Message</button>
-                    </div>
-                </form>
+                        </form>
             </div>
         </div>
     </section>
