@@ -18,6 +18,12 @@
     margin-right: 30px;
 }
 
+.contacts__user {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .contacts__user,
 .contacts__user-message {
     max-width: 571px;
@@ -27,8 +33,6 @@
 .contacts__form {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100%; 
 }
 
 .contacts__form input {
