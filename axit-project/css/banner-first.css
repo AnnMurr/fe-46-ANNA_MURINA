@@ -24,18 +24,23 @@ nav .navigation {
 }
 
 .navigation li {
-    list-style: none;
+    padding: 28px;
+    list-style-type: none;
+}
+
+.navigation li a {
+    text-decoration: none;
     color: #fff;
     font-family: 'Open Sans';
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    padding: 28px;
+    
     cursor: pointer;
     transition: all 0.5s ease;
 }
 
-.navigation li:hover {
+.navigation li a:hover {
     color: rgba(96, 90, 90, 0.8);
 }
 

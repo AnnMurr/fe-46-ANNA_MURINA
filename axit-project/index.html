@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./index.css">
     <title>Axit</title>
 </head>
+
 <body>
     <header class="menu">
         <div class="menu__container">
@@ -16,11 +18,21 @@
                 </div>
                 <nav>
                     <ul class="navigation">
-                        <li>Features</li>
-                        <li>About</li>
-                        <li>Pricing</li>
-                        <li>Reviews</li>
-                        <li>Contact</li>
+                        <li>
+                            <a href="#tabs">Features</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#pricing">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#reviews">Reviews</a>
+                        </li>
+                        <li>
+                            <a href="#contacts">Contact</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -53,7 +65,7 @@
                                 <form>
                                     <div class="form__heading">
                                         <h4>Try Your <span>FREE</span> Trial Today</h4>
-                                    </div> 
+                                    </div>
                                     <div class="form__inputs">
                                         <div class="form__input">
                                             <input type="text" placeholder="Name">
@@ -65,7 +77,7 @@
                                             <input type="password" placeholder="Password">
                                         </div>
                                     </div>
-                                    <button class="btn" type="submit">Get Started</button> 
+                                    <button class="btn" type="submit">Get Started</button>
                                 </form>
                             </div>
                         </div>
@@ -84,31 +96,45 @@
                                 <h4>Social Media</h4>
                             </div>
                             <div class="social__text">
-                                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                     Aenean euismod bibendum laoreet.</h5>
                             </div>
                         </div>
                         <div class="social__icons">
                             <div class="social__icon">
-                                <img src="./img/facebook_icon.svg" alt="facebook icon">
+                                <a href="#">
+                                    <img src="./img/facebook_icon.svg" alt="facebook icon">
+                                </a>
                             </div>
                             <div class="social__icon">
-                                <img src="./img/twitter_icon.svg" alt="twitter icon">
+                                <a href="#">
+                                    <img src="./img/twitter_icon.svg" alt="twitter icon">
+                                </a>
                             </div>
                             <div class="social__icon">
-                                <img src="./img/linkedin_icon.svg" alt="linkedin icon">
+                                <a href="#">
+                                    <img src="./img/linkedin_icon.svg" alt="linkedin icon">
+                                </a>
                             </div>
                             <div class="social__icon">
-                                <img src="./img/pinterest_icon.svg" alt="pinterest icon">
+                                 <a href="#">
+                                    <img src="./img/pinterest_icon.svg" alt="pinterest icon">
+                                </a>
                             </div>
                             <div class="social__icon">
-                                <img src="./img/instagram_icon.svg" alt="instagram icon">
+                                 <a href="#">
+                                    <img src="./img/instagram_icon.svg" alt="instagram icon">
+                                </a>
                             </div>
                             <div class="social__icon">
-                                <img src="./img/github_icon.svg" alt="github icon">
+                                 <a href="#">
+                                    <img src="./img/github_icon.svg" alt="github icon">
+                                </a>
                             </div>
                             <div class="social__icon">
-                                <img src="./img/rss_icon.svg" alt="rss icon">
+                                 <a href="#">
+                                    <img src="./img/rss_icon.svg" alt="rss icon">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -117,7 +143,7 @@
         </div>
     </section>
     <!-- tabs -->
-    <section class="tabs">
+    <section class="tabs" id="tabs">
         <div class="container">
             <div class="wrapper">
                 <div class="tabs__box">
@@ -127,9 +153,9 @@
                         <input type="radio" name="tab-btn" id="tabs_btn-2">
                         <label for="tabs_btn-2">tab 2</label>
                         <input type="radio" name="tab-btn" id="tabs_btn-3">
-                        <label for="tabs_btn-3">tab 3</label>             
+                        <label for="tabs_btn-3">tab 3</label>
                         <div id="tabs__content-first" class="tabs__content-first">
-                            <div class="tabs__content-wrap">       
+                            <div class="tabs__content-wrap">
                                 <div class="tabs__block-information">
                                     <div class="tabs__heading">
                                         <h3>
@@ -138,87 +164,87 @@
                                     </div>
                                     <div class="tabs__text">
                                         <h5>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br> 
-                                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br> 
-                                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br>
+                                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br>
+                                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
                                             penatibus et magnis dis parturient montes.<br>
                                             <br>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br> 
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>
                                             bibendum laoreet.
                                         </h5>
                                     </div>
                                     <div>
                                         <button type="button" class="tabs__btn">Download</button>
-                                    </div>  
-                                </div>
-                                <div class="tabs__picture">
-                                    <img src="./img/Rectangle.png" alt="Statue of Liberty">
-                                </div>
-                            </div>
-                        </div>              
-                        <div id="tabs__content-second" class="tabs__content-second"> 
-                            <div class="tabs__content-wrap">         
-                                <div class="tabs__block-information">
-                                    <div class="tabs__heading">
-                                        <h3>
-                                            Tabs with soft transitioning effect.
-                                        </h3>
                                     </div>
-                                    <div class="tabs__text">
-                                        <h5>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br> 
-                                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br> 
-                                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                                            penatibus et magnis dis parturient montes.<br>
-                                            <br>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br> 
-                                            bibendum laoreet.
-                                        </h5>
-                                    </div>
-                                    <div>
-                                        <button type="button" class="tabs__btn">Download</button>
-                                    </div>  
-                                </div>
-                                <div class="tabs__picture">
-                                    <img src="./img/Rectangle.png" alt="Statue of Liberty">
-                                </div>
-                            </div>
-                        </div>                  
-                        <div id="tabs__content-third" class="tabs__content-third"> 
-                            <div class="tabs__content-wrap">           
-                                <div class="tabs__block-information">
-                                    <div class="tabs__heading">
-                                        <h3>
-                                            Tabs with soft transitioning effect.
-                                        </h3>
-                                    </div>
-                                    <div class="tabs__text">
-                                        <h5>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br> 
-                                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br> 
-                                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                                            penatibus et magnis dis parturient montes.<br>
-                                            <br>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br> 
-                                            bibendum laoreet.
-                                        </h5>
-                                    </div>
-                                    <div>
-                                        <button type="button" class="tabs__btn">Download</button>
-                                    </div>  
                                 </div>
                                 <div class="tabs__picture">
                                     <img src="./img/Rectangle.png" alt="Statue of Liberty">
                                 </div>
                             </div>
                         </div>
-                    </div>                   
+                        <div id="tabs__content-second" class="tabs__content-second">
+                            <div class="tabs__content-wrap">
+                                <div class="tabs__block-information">
+                                    <div class="tabs__heading">
+                                        <h3>
+                                            Tabs with soft transitioning effect.
+                                        </h3>
+                                    </div>
+                                    <div class="tabs__text">
+                                        <h5>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br>
+                                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br>
+                                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                                            penatibus et magnis dis parturient montes.<br>
+                                            <br>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>
+                                            bibendum laoreet.
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="tabs__btn">Download</button>
+                                    </div>
+                                </div>
+                                <div class="tabs__picture">
+                                    <img src="./img/Rectangle.png" alt="Statue of Liberty">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tabs__content-third" class="tabs__content-third">
+                            <div class="tabs__content-wrap">
+                                <div class="tabs__block-information">
+                                    <div class="tabs__heading">
+                                        <h3>
+                                            Tabs with soft transitioning effect.
+                                        </h3>
+                                    </div>
+                                    <div class="tabs__text">
+                                        <h5>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br>
+                                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br>
+                                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                                            penatibus et magnis dis parturient montes.<br>
+                                            <br>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>
+                                            bibendum laoreet.
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="tabs__btn">Download</button>
+                                    </div>
+                                </div>
+                                <div class="tabs__picture">
+                                    <img src="./img/Rectangle.png" alt="Statue of Liberty">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- about -->
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="wrapper">
                 <div class="block-top">
@@ -249,8 +275,9 @@
                             </div>
                             <div class="block-bottom__text">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing 
-                                    elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan
+                                    et viverra.
                                 </p>
                             </div>
                         </div>
@@ -265,8 +292,9 @@
                             </div>
                             <div class="block-bottom__text">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing 
-                                    elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan
+                                    et viverra.
                                 </p>
                             </div>
                         </div>
@@ -281,20 +309,21 @@
                             </div>
                             <div class="block-bottom__text">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing 
-                                    elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan
+                                    et viverra.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-                </div>
             </div>
+        </div>
         </div>
     </section>
 
     <!-- pricing -->
-    <section class="pricing">
+    <section class="pricing" id="pricing">
         <div class="container">
             <div class="pricing__wrapper">
                 <div class="header">
@@ -328,15 +357,15 @@
                                     Free for life
                                 </h5>
                             </div>
-                                <ul class="card__plan-benifit">
-                                    <li>1 gb of space</li>
-                                    <li>1 gb of space</li>
-                                    <li>1 gb of space</li>
-                                    <li>1 gb of space</li>
-                                    <li>1 gb of space</li>
-                                    <li>1 gb of space</li>
-                                </ul>
-                        </div>  
+                            <ul class="card__plan-benifit">
+                                <li>1 gb of space</li>
+                                <li>1 gb of space</li>
+                                <li>1 gb of space</li>
+                                <li>1 gb of space</li>
+                                <li>1 gb of space</li>
+                                <li>1 gb of space</li>
+                            </ul>
+                        </div>
                         <div class="card card_active">
                             <div class="card__rate-name">
                                 <h4>
@@ -361,7 +390,7 @@
                                 <li>1 gb of space</li>
                                 <li>1 gb of space</li>
                             </ul>
-                        </div>  
+                        </div>
                         <div class="card">
                             <div class="card__rate-name">
                                 <h4>
@@ -386,13 +415,13 @@
                                 <li>1 gb of space</li>
                                 <li>1 gb of space</li>
                             </ul>
-                        </div>  
-                    </div>                    
-                </div>                
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <section class="reviews">
+    <section class="reviews" id="reviews">
         <div class="container">
             <div class="reviews__wrapper">
                 <div class="reviews__header">
@@ -410,10 +439,10 @@
                     <div class="card">
                         <div class="card__message">
                             <div class="card__text">
-                                <h5>Lorem ipsum dolor sit amet, 
-                                    consectetur adipisicing elit. Doloribus 
-                                    accusamus expedita repellat similique 
-                                    odio aspernatur ex, architecto eaque 
+                                <h5>Lorem ipsum dolor sit amet,
+                                    consectetur adipisicing elit. Doloribus
+                                    accusamus expedita repellat similique
+                                    odio aspernatur ex, architecto eaque
                                     quo suscipit.
                                 </h5>
                             </div>
@@ -431,16 +460,16 @@
                                 <div class="card__info-proffesion">
                                     <h5>Manager</h5>
                                 </div>
-                            </div>   
+                            </div>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card__message">
                             <div class="card__text">
-                                <h5>Lorem ipsum dolor sit amet, 
-                                    consectetur adipisicing elit. Doloribus 
-                                    accusamus expedita repellat similique 
-                                    odio aspernatur ex, architecto eaque 
+                                <h5>Lorem ipsum dolor sit amet,
+                                    consectetur adipisicing elit. Doloribus
+                                    accusamus expedita repellat similique
+                                    odio aspernatur ex, architecto eaque
                                     quo suscipit.
                                 </h5>
                             </div>
@@ -458,16 +487,16 @@
                                 <div class="card__info-proffesion">
                                     <h5>Manager</h5>
                                 </div>
-                            </div>   
+                            </div>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card__message">
                             <div class="card__text">
-                                <h5>Lorem ipsum dolor sit amet, 
-                                    consectetur adipisicing elit. Doloribus 
-                                    accusamus expedita repellat similique 
-                                    odio aspernatur ex, architecto eaque 
+                                <h5>Lorem ipsum dolor sit amet,
+                                    consectetur adipisicing elit. Doloribus
+                                    accusamus expedita repellat similique
+                                    odio aspernatur ex, architecto eaque
                                     quo suscipit.
                                 </h5>
                             </div>
@@ -485,7 +514,7 @@
                                 <div class="card__info-proffesion">
                                     <h5>Manager</h5>
                                 </div>
-                            </div>   
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -502,15 +531,16 @@
                     <span class="divider divider_white"></span>
                 </div>
                 <div class="banner__text">
-                    <h5>Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</h5>
+                    <h5>Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than
+                        ever!</h5>
                 </div>
                 <div class="banner__btn">
                     <button type="button">Download</button>
                 </div>
             </div>
         </div>
-    </section> 
-    <section class="contacts">
+    </section>
+    <section class="contacts" id="contacts">
         <div class="container">
             <div class="contacts__wrapper">
                 <div class="header">
@@ -525,23 +555,23 @@
                 <div class="contacts__inputs">
                     <div class="contacts__user">
                         <form class="contacts__form" action="#">
-                                <input type="text" placeholder="Name">            
-                                <input type="email" placeholder="Email">        
-                                <input type="password" placeholder="Password">      
-                            </div>
-                            <div class="contacts__user-message">
-                                <textarea class="contacts__message" placeholder="Message"></textarea>
-                            </div>
-                        </div>
-                            <div class="contacts__btn">
-                                <button type="submit">Send Message</button>
-                            </div>
-                        </form>
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="Password">
+                    </div>
+                    <div class="contacts__user-message">
+                        <textarea class="contacts__message" placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <div class="contacts__btn">
+                    <button type="submit">Send Message</button>
+                </div>
+                </form>
             </div>
         </div>
     </section>
     <footer class="last-block">
-         <div class="footer-container">
+        <div class="footer-container">
             <div class="footer-wripper">
                 <div class="footer">
                     <div class="socials">
@@ -572,7 +602,7 @@
                     </div>
                 </div>
             </div>
-         </div>
+        </div>
     </footer>
 </body>
 </html>
