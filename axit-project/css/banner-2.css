@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
 .banner__container {
     width: 100%;
 }
@@ -21,11 +19,6 @@
     font-size: 36px;
     line-height: 42px;
     color: #fff;
-    font-family: 'Raleway';
-}
-
-.divider_white {
-    border-bottom: 1px solid #fff;
 }
 
 .banner__text h5 {

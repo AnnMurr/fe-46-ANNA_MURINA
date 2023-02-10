@@ -1,24 +1,6 @@
-.contacts__container {
-    max-width: 1170px;
-    margin: 0 auto;
-}
-
 .contacts__wrapper {
     padding: 50px 0;
     text-align: center;
-}
-
-.contacts__header {
-    padding: 54px 0;
-}
-
-.contacts__header h2 {
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
-    color: #000000;
-    text-transform: uppercase;
 }
 
 .contacts__text {
@@ -32,61 +14,52 @@
     height: 211px;
 }
 
-.contacts__user form {
+.contacts__user {
+    margin-right: 30px;
+}
+
+.contacts__user {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 571px;
-    height: 100%; 
 }
 
-.contacts__user-info input {
+.contacts__user,
+.contacts__user-message {
+    max-width: 571px;
     width: 100%;
-    border: none;
-    border-bottom: 1px solid #BDBDBD;
-    margin-bottom: 50px;
-    height: 19px; 
 }
 
-.contacts__user-info label,
-.contacts__user-message label {
+.contacts__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__form input {
+    width: 100%;
+    border-bottom: 1px solid #BDBDBD;
+    height: 38px;
+    padding-bottom: 16px; 
+}
+
+.contacts__form input::placeholder,
+.contacts__message::placeholder {
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    color: #BDBDBD;
+    color: #BDBDBD; 
 }
 
-.contacts__user-message,
-.contacts__user-info {
-    text-align: start;   
-}
-
-.contacts__user-info input:focus,
-.contacts__user-message textarea:focus {
-	outline: none;
-}
-
-.contacts__user-info {
-    height: 38px;
-}
-
-.contacts__user-message {
+textarea {
     max-width: 569px;
     height: 100%;
 }
 
 .contacts__user-message textarea {
     width: 100%;
-    border: none;
     border-bottom: 1px solid #BDBDBD;
     resize: none;
-    max-height: 193px;
-}
-
-.contacts__user-message textarea {
-    width: 571px;
-    height: 100%;
 }
 
 .contacts__btn {
@@ -104,7 +77,6 @@
     font-family: 'Open Sans';
     cursor: pointer;
     transition: all 0.5s ease;
-    border: none;
 }
 
 .contacts__btn button:hover {

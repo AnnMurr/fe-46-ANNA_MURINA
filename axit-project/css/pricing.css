@@ -4,19 +4,7 @@
 
 .pricing__wrapper {
     padding-top: 50px;
-}
-
-.pricing__header {
-    padding: 54px 0;
     text-align: center;
-}
-
-.pricing__header h2 {
-    text-transform: uppercase;
-    font-family: 'Raleway';
-    font-size: 36px;
-    line-height: 42px;
-    font-weight: 400;
 }
 
 .pricing__subtitle {
@@ -93,6 +81,7 @@ h5 {
     align-items: center;
     height: 50px;
     color: #86878B;
+    text-transform: capitalize;
 }
 
 .card.card_active {
