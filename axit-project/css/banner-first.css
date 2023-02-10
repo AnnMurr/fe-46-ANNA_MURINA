@@ -1,17 +1,25 @@
-.menu__container {
+.menu {
     width: 100%;
-}
-
-.menu__wrapper {
+    height: 75px;
     background-color: #000;
-    display: flex;
-    width: 100%;
     position: fixed;
     z-index: 2;
 }
 
-.menu__wrapper .logo {
-    padding-left: 115px;
+.menu__container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-right: 55px;
+}
+
+.menu .logo {
+    width: 183px;
+    height: 74px;
+}
+
+.menu__wrapper {
+    display: flex;
+    align-items: center;
 }
 
 nav {
@@ -20,12 +28,8 @@ nav {
 
 nav .navigation {
     display: flex;
-    padding-right: 170px;
-}
-
-.navigation li {
-    padding: 28px;
-    list-style-type: none;
+    width: 570px;
+    justify-content: space-around;
 }
 
 .navigation li a {
@@ -96,24 +100,6 @@ nav .navigation {
     margin: 0;
 }
 
-.btn {
-    width: 270px;
-    height: 58px;
-    display: block;
-    border: 2px solid #fff;
-    background-color: transparent;
-    color: #fff;
-    font-family: 'Open Sans';
-    font-size: 18px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.5s ease;
-}
-
-.axure .btn:hover {
-    text-decoration: underline;
-}
-
 .form__wrapper {
     width: 470px;
     background-color: #fff;
@@ -142,9 +128,16 @@ nav .navigation {
     padding: 45px 50px 75px 50px;
 }
 
+.form__input {
+    margin-bottom: 33px;
+}
+
+.form__input:last-child {
+    margin-bottom: 0;
+}
+
 .form__input input {
     width: 100%;
-    margin-bottom: 33px;
     border: none;
     border-bottom: 1px solid #BDBDBD;
     padding-bottom: 16px;
@@ -158,30 +151,9 @@ input::placeholder {
     color: #BDBDBD; 
 }
 
-input:focus {
-    outline: none;
-}
 
-.form .btn {
-    background-color: #EC7979;
-    width: 100%;
-    border: none;
-    border-bottom-right-radius: 9px;
-    border-bottom-left-radius: 9px;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 20px;
-}
 
-.form .btn:hover {
-    background-color: #222222;
-}
 
-.form .btn:focus {
-    font-weight: 700;
-    outline: none;
-}
 
 .social__bacgraund {
     background-color: #F8EFEF;
@@ -235,6 +207,3 @@ input:focus {
     height: 70px;
 }
 
-.social__icon:hover {
-    border-bottom: 2px solid rgb(204 204 204);
-}

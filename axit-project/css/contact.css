@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     height: 211px;
+    margin-bottom: 50px;
 }
 
 .contacts__user {
@@ -62,25 +63,3 @@ textarea {
     resize: none;
 }
 
-.contacts__btn {
-    padding-top: 50px;
-}
-
-.contacts__btn button {
-    width: 370px;
-    height: 58px;
-    background-color: #EC7979;
-    color: #fff;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
-    font-family: 'Open Sans';
-    cursor: pointer;
-    transition: all 0.5s ease;
-}
-
-.contacts__btn button:hover {
-    border: 1px solid rgba(96, 90, 90, 0.8);
-    color: rgba(96, 90, 90, 0.8);
-    background: none;
-}
