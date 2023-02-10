@@ -18,6 +18,12 @@
     margin-right: 30px;
 }
 
+.contacts__user {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .contacts__user,
 .contacts__user-message {
     max-width: 571px;
@@ -27,13 +33,10 @@
 .contacts__form {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100%; 
 }
 
 .contacts__form input {
     width: 100%;
-    border: none;
     border-bottom: 1px solid #BDBDBD;
     height: 38px;
     padding-bottom: 16px; 
@@ -48,20 +51,13 @@
     color: #BDBDBD; 
 }
 
-.contacts__form input:focus,
-.contacts__user-message textarea:focus,
-.contacts__btn button:focus {
-	outline: none;
-}
-
-textarea{
+textarea {
     max-width: 569px;
     height: 100%;
 }
 
 .contacts__user-message textarea {
     width: 100%;
-    border: none;
     border-bottom: 1px solid #BDBDBD;
     resize: none;
 }
@@ -81,7 +77,6 @@ textarea{
     font-family: 'Open Sans';
     cursor: pointer;
     transition: all 0.5s ease;
-    border: none;
 }
 
 .contacts__btn button:hover {
