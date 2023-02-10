@@ -47,3 +47,16 @@ textarea,
 select {
   font: inherit;
 }
+
+input:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
+
+input,
+textarea,
+button {
+	border: none;
+}
+
