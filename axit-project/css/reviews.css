@@ -8,17 +8,17 @@
     color: #86878B;
 }
 
-.reviews__cards {
+.reviews__boxes {
     display: flex;
     justify-content: space-between;
     padding-top: 43px;
 }
 
-.card {
+.box {
     max-width: 370px;
 }
 
-.card__text {
+.box__text {
     background-color: #E2E2E2;
     border-radius: 10px;
     width: 100%;
@@ -26,41 +26,42 @@
     color: #86878B;
     display: flex;
     align-items: center;
+    padding: 0 20px;
 }
 
-.card__user {
+.box__user {
     display: flex;
 }
 
-.card__avatar {
+.box__avatar {
     margin-right: 30px;
 }
 
-.card__info {
+.box__info {
     text-align: start;
 }
 
-.card__info-name {
+.box__info-name {
     padding: 10.5px 0;
 }
 
-.card__info-name h4 {
+.box__info-name h4 {
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
     font-family: 'Open Sans';
 }
 
-.card__info-proffesion {
+.box__info-proffesion {
     padding-top: 15px;
 }
 
-.card__message {
+.box__message {
     position: relative;
     padding-bottom: 66px;
 }
 
-.card__message::after {
+.box__message::after {
     content: '';
     position: absolute;
     left: 70px;
@@ -86,6 +87,10 @@
 .socials {
     display: flex;
     justify-content: space-between;
+}
+
+.socials__icon {
+    border-bottom: 2px solid transparent;
 }
 
 .copyright {

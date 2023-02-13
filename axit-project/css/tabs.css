@@ -27,7 +27,7 @@
     vertical-align: middle;
     padding: 10px 0;
     cursor: pointer;
-    width: 203px;
+    width: 184px;
     height: 40px;
     font-family: 'Open Sans';
     font-weight: 400;
@@ -44,6 +44,8 @@
     position: relative;
     background: #fff;
     top: 1px;
+    width: 203px;
+    height: 40px;
 }
 
 .tabs__content-wrap { 
@@ -77,21 +79,7 @@
     line-height: 21px;
 }
 
-.tabs__btn {
-    background-color: #EC7979;
-    color: #fff;
-    border: none;
-    width: 270px;
-    height: 58px;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    display: block;
-    cursor: pointer;
-    padding: 0;
-}
+
 
 .tabs__picture {
     max-height: 500px;

@@ -51,6 +51,7 @@ body {
 
 .block-bottom__text {
     margin-top: 40px;
+    padding: 0 10px;
 }
 
 .block-bottom__text p {

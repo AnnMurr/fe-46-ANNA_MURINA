@@ -60,3 +60,7 @@ button {
 	border: none;
 }
 
+li {
+  list-style-type: none;
+}
+
