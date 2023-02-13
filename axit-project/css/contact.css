@@ -3,9 +3,12 @@
     text-align: center;
 }
 
-.contacts__text {
+.contacts__text h5 {
     padding: 40px 0 89px 0;
     color: #86878B;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 .contacts__inputs {

@@ -11,15 +11,11 @@
     padding: 40px 0;
 }
 
-h5 {
+.pricing__subtitle h5 {
+    color: #86878B;
     font-size: 18px;
     line-height: 21px;
     font-weight: 400;
-}
-
-.pricing__subtitle h5 {
-    color: #86878B;
-    text-align: center;
 }
 
 .cards__wrap {

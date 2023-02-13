@@ -238,3 +238,96 @@ input:focus {
 .social__icon:hover {
     border-bottom: 2px solid rgb(204 204 204);
 }
+
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+        /* padding: 16px; */
+        max-width: 992px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        /* max-width: 1022px; */
+    }
+
+    .axure__heading h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .logo {
+        width: 183px;
+        height: 75px;
+    }
+
+    .axure__heading {
+        max-width: 454px;
+    }
+
+    .axure__text h5,
+    .social__text h5,
+    .tabs__text h5,
+    .block-top__subtitle h5,
+    .block-bottom__text h5,
+    .pricing__subtitle h5,
+    .card__text h5, 
+    .reviews__text h5,
+    .card__info-proffesion h5,
+    .banner__text h5,
+    .contacts__text h5,
+    .copyright h5  {
+        font-size: 14px;
+        line-height: 16px;
+        
+    }
+
+    .contacts .header h2 {
+        font-weight: 700;
+    }
+
+    .form__heading h4,
+    .social__heading h4,
+    .block-bottom__heading h4,
+    .card__info-name h4 {
+        font-size: 18px;
+        line-height: 25px;        
+    }
+
+    .tabs__heading h3 {
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .header h2,
+    .banner__header h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .form__wrapper {
+        width: 398px;
+    }
+
+    .social__icon img {
+        width: 64px;
+        height: 64px;
+    }
+
+    .block-bottom__img  {
+        width: 80px;
+        height: 80px;
+    }
+
+    .card {
+        max-width: 317px;
+    }
+
+    .card__avatar-wrapper {
+        width: 64px;
+        height: 64px;
+    }
+
+}

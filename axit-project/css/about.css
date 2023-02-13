@@ -13,15 +13,22 @@ body {
     text-align: center;
 }
 
-.block-top__subtitle p {
-    font-size: 18px;
+.block-top__subtitle h5 {
     color: #86878B;
+}
+
+.block-top__subtitle h5,
+.block-bottom__text h5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 .block-bottom__heading h4 {
     font-family: 'Open Sans';
     font-size: 24px;
     font-weight: 700;
+    line-height: 33px;
 }
 
 .block-bottom__wripper {
@@ -53,6 +60,3 @@ body {
     margin-top: 40px;
 }
 
-.block-bottom__text p {
-    font-size: 18px;
-}
