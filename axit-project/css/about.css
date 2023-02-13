@@ -60,3 +60,35 @@ body {
     margin-top: 40px;
 }
 
+@media screen and (max-width: 1024px) {
+
+    .block-top__subtitle {
+        margin-top: 32px;
+    }
+
+    .block-bottom__wripper {
+        padding: 66px 0 60px 0;
+    }
+
+    .block-bottom__img {
+        margin: 0 auto 62.5px auto;
+        width: 80px;
+        height: 80px;
+        padding: 8px;
+    }
+
+    .block-bottom__content:nth-child(2) img {
+        width: 93%;
+    }
+
+    .block-bottom__content:last-child img {
+        width: 60%;
+    }
+
+    .block-bottom__text {
+        margin-top: 37.5px;
+        max-width: 317px;
+        padding: 0 10px;
+    }
+}
+

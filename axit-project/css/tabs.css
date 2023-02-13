@@ -27,7 +27,7 @@
     vertical-align: middle;
     padding: 10px 0;
     cursor: pointer;
-    width: 203px;
+    width: 184px;
     height: 40px;
     font-family: 'Open Sans';
     font-weight: 400;
@@ -44,6 +44,8 @@
     position: relative;
     background: #fff;
     top: 1px;
+    width: 203px;
+    height: 40px;
 }
 
 .tabs__content-wrap { 
@@ -77,22 +79,51 @@
     line-height: 21px;
 }
 
-.tabs__btn {
-    background-color: #EC7979;
-    color: #fff;
-    border: none;
-    width: 270px;
-    height: 58px;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    display: block;
-    cursor: pointer;
-    padding: 0;
-}
-
 .tabs__picture {
     max-height: 500px;
 } 
+
+.tabs__picture img {
+    height: 100%;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .tabs__box {
+        padding: 50px 0 50px 0;
+    }
+
+    .tabs__wrap>input[type="radio"]:checked+label {
+        width: 172px;
+    }
+
+    .tabs__wrap>label {
+        width: 156px;
+    }
+
+    .tabs__heading {
+        padding: 28px 0;
+    }
+
+    .tabs__text {
+        padding: 38px 0;
+    }
+
+    .tabs .button {
+        width: 232px;
+    }
+
+    .tabs__block-information {
+        margin: 0 25px 0 85px ;
+        max-width: 483px;
+        padding-bottom: 50px;
+    }
+
+    .tabs__content-wrap {
+        max-height: 385px
+    }
+}
+
+

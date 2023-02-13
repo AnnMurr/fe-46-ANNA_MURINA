@@ -1,17 +1,25 @@
-.menu__container {
+.menu {
     width: 100%;
-}
-
-.menu__wrapper {
+    height: 75px;
     background-color: #000;
-    display: flex;
-    width: 100%;
     position: fixed;
     z-index: 2;
 }
 
-.menu__wrapper .logo {
-    padding-left: 115px;
+.menu__container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-right: 55px;
+}
+
+.menu .logo {
+    width: 183px;
+    height: 74px;
+}
+
+.menu__wrapper {
+    display: flex;
+    align-items: center;
 }
 
 nav {
@@ -20,12 +28,8 @@ nav {
 
 nav .navigation {
     display: flex;
-    padding-right: 170px;
-}
-
-.navigation li {
-    padding: 28px;
-    list-style-type: none;
+    width: 570px;
+    justify-content: space-around;
 }
 
 .navigation li a {
@@ -96,24 +100,6 @@ nav .navigation {
     margin: 0;
 }
 
-.btn {
-    width: 270px;
-    height: 58px;
-    display: block;
-    border: 2px solid #fff;
-    background-color: transparent;
-    color: #fff;
-    font-family: 'Open Sans';
-    font-size: 18px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.5s ease;
-}
-
-.axure .btn:hover {
-    text-decoration: underline;
-}
-
 .form__wrapper {
     width: 470px;
     background-color: #fff;
@@ -142,9 +128,16 @@ nav .navigation {
     padding: 45px 50px 75px 50px;
 }
 
+.form__input {
+    margin-bottom: 33px;
+}
+
+.form__input:last-child {
+    margin-bottom: 0;
+}
+
 .form__input input {
     width: 100%;
-    margin-bottom: 33px;
     border: none;
     border-bottom: 1px solid #BDBDBD;
     padding-bottom: 16px;
@@ -158,30 +151,9 @@ input::placeholder {
     color: #BDBDBD; 
 }
 
-input:focus {
-    outline: none;
-}
 
-.form .btn {
-    background-color: #EC7979;
-    width: 100%;
-    border: none;
-    border-bottom-right-radius: 9px;
-    border-bottom-left-radius: 9px;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 20px;
-}
 
-.form .btn:hover {
-    background-color: #222222;
-}
 
-.form .btn:focus {
-    font-weight: 700;
-    outline: none;
-}
 
 .social__bacgraund {
     background-color: #F8EFEF;
@@ -241,16 +213,23 @@ input:focus {
 
 
 
-@media screen and (max-width: 1200px) {
-    .container {
-        /* padding: 16px; */
-        max-width: 992px;
-    }
-}
-
 @media screen and (max-width: 1024px) {
-    .container {
-        /* max-width: 1022px; */
+
+    .banner-first__wrapper {
+        padding: 212px 0 106px 0;
+    }
+
+    .axure__heading {
+        padding: 38px 0 42px 0;
+    }
+
+    .axure__text {
+        max-width: 183px;
+        padding: 31px 0;
+    }
+
+    .form__heading {
+        padding: 32.5px 0;
     }
 
     .axure__heading h1 {
@@ -267,6 +246,45 @@ input:focus {
         max-width: 454px;
     }
 
+    .axure .btn {
+        width: 183px;
+        height: 50px;
+    }
+
+    .axure .divider_white {
+        width: 115px;
+    }
+
+    .form__wrapper {
+        width: 398px;
+    }
+
+    .social__heading {
+        padding: 10px 0;
+    }
+
+    .social__text {
+        padding: 13px 0;
+        max-width: 402px;
+    }
+
+    .social__icons {
+        padding: 26px 0 15px 0;
+        width: 570px;
+    }
+
+    .social__icon img {
+        width: 64px;
+        height: 64px;
+    }
+
+    .menu__container,
+    .banner-first .container {
+        max-width: 909px;
+        margin: 0 0 0 auto;
+        padding-right: 20px;
+    }
+
     .axure__text h5,
     .social__text h5,
     .tabs__text h5,
@@ -275,13 +293,13 @@ input:focus {
     .pricing__subtitle h5,
     .card__text h5, 
     .reviews__text h5,
-    .card__info-proffesion h5,
+    .box__info-proffesion h5 ,
     .banner__text h5,
     .contacts__text h5,
-    .copyright h5  {
+    .copyright h5,
+    .box__text h5  {
         font-size: 14px;
-        line-height: 16px;
-        
+        line-height: 16px;  
     }
 
     .contacts .header h2 {
@@ -291,7 +309,8 @@ input:focus {
     .form__heading h4,
     .social__heading h4,
     .block-bottom__heading h4,
-    .card__info-name h4 {
+    .card__info-name h4,
+    .box__info-name h4 {
         font-size: 18px;
         line-height: 25px;        
     }
@@ -305,29 +324,6 @@ input:focus {
     .banner__header h2 {
         font-size: 24px;
         line-height: 28px;
-    }
-
-    .form__wrapper {
-        width: 398px;
-    }
-
-    .social__icon img {
-        width: 64px;
-        height: 64px;
-    }
-
-    .block-bottom__img  {
-        width: 80px;
-        height: 80px;
-    }
-
-    .card {
-        max-width: 317px;
-    }
-
-    .card__avatar-wrapper {
-        width: 64px;
-        height: 64px;
     }
 
 }

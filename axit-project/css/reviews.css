@@ -7,17 +7,17 @@
     padding: 40px 0;
 }
 
-.reviews__cards {
+.reviews__boxes {
     display: flex;
     justify-content: space-between;
     padding-top: 43px;
 }
 
-.card {
+.box {
     max-width: 370px;
 }
 
-.card__text {
+.box__text {
     background-color: #E2E2E2;
     border-radius: 10px;
     width: 100%;
@@ -25,53 +25,54 @@
     color: #86878B;
     display: flex;
     align-items: center;
+    padding: 0 20px;
 }
 
-.card__user {
+.box__user {
     display: flex;
 }
 
-.card__avatar {
+.box__avatar {
     margin-right: 30px;
 }
 
-.card__info {
+.box__info {
     text-align: start;
 }
 
-.card__info-name {
+.box__info-name {
     padding: 10.5px 0;
 }
 
-.card__info-name h4 {
+.box__info-name h4 {
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
     font-family: 'Open Sans';
 }
 
+.box__info-proffesion {
+    padding-top: 15px;
+}
+
 .reviews__text h5 {
     color: #86878B;
 }
 
-.card__text h5,
+.box__text h5,
 .reviews__text h5,
-.card__info-proffesion h5 {
+.box__info-proffesion h5 {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
 }
 
-.card__info-proffesion {
-    padding-top: 15px;
-}
-
-.card__message {
+.box__message {
     position: relative;
     padding-bottom: 66px;
 }
 
-.card__message::after {
+.box__message::after {
     content: '';
     position: absolute;
     left: 70px;
@@ -99,6 +100,10 @@
     justify-content: space-between;
 }
 
+.socials__icon {
+    border-bottom: 2px solid transparent;
+}
+
 .copyright {
     padding-top: 28px;
 }
@@ -108,4 +113,61 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .reviews__wrapper {
+        padding: 50px 0 57px 0;
+    }
+
+    .reviews__text {
+        padding: 32px 0;
+    }
+
+    .reviews__boxes {
+        padding-top: 0;
+    }
+
+    .box {
+        max-width: 317px;
+    }
+
+    .box__text {
+        padding: 0 30px;
+    }
+
+    .box__message::after {
+        left: 60px;
+    }
+
+    .box__avatar {
+        width: 63px;
+        height: 63px;
+    }
+
+    .box__avatar {
+        margin-right: 23px;
+    }
+
+    .box__info-name {
+        padding: 5.5px 0;
+    }
+
+    .box__info-proffesion {
+        padding-top: 9px;
+    }
+
+    .footer-container {
+        max-width: 477px;
+    }
+
+    .socials__icon  {
+        width: 46px;
+    height: 45px;
+    }
+
+    .copyright {
+        padding-top: 38px;
+    }
 }
