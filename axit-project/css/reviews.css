@@ -92,7 +92,7 @@
 
 .footer-wripper {
     padding: 35px 0 27px 0;
-    text-align: center;   
+    text-align: center;
 }
 
 .socials {
@@ -113,6 +113,10 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+}
+
+.dots {
+    display: none;
 }
 
 @media screen and (max-width: 1024px) {
@@ -162,12 +166,105 @@
         max-width: 477px;
     }
 
-    .socials__icon  {
+    .socials__icon {
         width: 46px;
-    height: 45px;
+        height: 45px;
     }
 
     .copyright {
         padding-top: 38px;
+    }
+}
+
+@media screen and (max-width: 924px) {
+
+    .reviews__boxes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .box {
+        margin-bottom: 15px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .contacts__inputs {
+        height: 100%;
+        flex-flow: column;
+    }
+
+    .contacts__user {
+        height: 211px;
+    }
+
+    .contacts__user-message {
+        height: 200px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .reviews__wrapper {
+        padding: 0 0 32px 0;
+    }
+
+    .reviews__text {
+        padding: 24px 0;
+    }
+
+    .reviews__header .header {
+        padding: 33px 0;
+    }
+
+    .box__text {
+        padding: 0 15px;
+    }
+
+    .box__message::after {
+        left: 46px;
+    }
+
+    .box__avatar {
+        width: 57px;
+        height: 57px;
+    }
+
+    .box__info-name {
+        padding: 8px 0;
+    }
+
+    .box__info-proffesion {
+        padding: 10px 0;
+    }
+
+    .box {
+        display: none;
+        margin-bottom: 23px;
+    }
+
+    .box.box_active {
+        display: block
+    }
+
+    .socials__icon {
+        width: 28px;
+        height: 26px;
+    }
+
+    .socials {
+        max-width: 288px;
+        margin: 0 auto;
+    }
+
+    .copyright {
+        padding-top: 42px;
+    }
+
+    .footer-wripper {
+        padding-bottom: 45px;
     }
 }

@@ -48,8 +48,8 @@ body {
     border: 1px solid #EC7979;
     border-radius: 100%;
     align-items: center;
-    display: flex;  
-    margin: 0 auto 70px auto;  
+    display: flex;
+    margin: 0 auto 70px auto;
 }
 
 .block-bottom__img img {
@@ -92,3 +92,32 @@ body {
     }
 }
 
+@media screen and (max-width: 924px) {
+
+    .block-bottom__wripper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .block-bottom__content {
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .block-bottom__content {
+        padding-top: 44px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .block-top__subtitle {
+        margin-top: 25px;
+    }
+
+    .block-bottom__wripper {
+        padding-top: 40px;
+    }
+}

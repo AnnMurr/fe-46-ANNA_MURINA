@@ -4,10 +4,12 @@
 
 .banner__wrapper {
     text-align: center;
-    background:  
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('../img/image.png');
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../img/image.png');
     padding: 50px 0;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .banner__header {
@@ -21,32 +23,46 @@
     color: #fff;
 }
 
+.banner__text {
+    padding-bottom: 73px;
+    padding-top: 40px;
+}
+
 .banner__text h5 {
     color: #fff;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    padding-bottom: 73px;
-    padding-top: 40px;
 }
 
 
 @media screen and (max-width: 1024px) {
 
-    .contacts__text h5 {
+    .contacts__text {
         padding: 32px 0 72px 0;
     }
 
     .banner__wrapper {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-        url(../img/image2.png);
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url(../img/image2.png);
         background-size: cover;
     }
 
-    .banner__text h5 {
+    .banner__text {
         padding: 32px;
     }
 }
 
+@media screen and (max-width: 576px) {
 
+    .banner__wrapper {
+        padding: 0 0 58px 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url(../img/image3.png);
+        padding: 0 16px 58px 16px;
+    }
 
+    .banner__text {
+        padding: 16px 0 66px 0;
+    }
+}

@@ -36,7 +36,7 @@
 }
 
 .card__rate-name {
-    color: #fff;    
+    color: #fff;
     height: 60px;
 }
 
@@ -44,7 +44,7 @@
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 24px;
-    line-height: 33px;  
+    line-height: 33px;
 }
 
 .card__rate-name,
@@ -91,7 +91,7 @@
 
 .card:hover {
     box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
-    transform: translate3d(0px,-20px,100px);
+    transform: translate3d(0px, -20px, 100px);
 }
 
 @media screen and (max-width: 1024px) {
@@ -125,5 +125,64 @@
     .card__slogan,
     .card__plan-benifit li {
         height: 44px;
+    }
+}
+
+@media screen and (max-width: 924px) {
+
+    .cards__wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        padding-bottom: 27px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .pricing__wrapper {
+        padding-top: 0;
+    }
+
+    .pricing__subtitle {
+        padding: 24px 0;
+    }
+
+    .cards__wrap {
+        padding: 0;
+    }
+
+    .card__rate-name {
+        height: 47px;
+    }
+
+    .card__price {
+        height: 78px;
+    }
+
+    .card__slogan {
+        height: 39px;
+    }
+
+    .card__rate-name h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .card__price h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .card__slogan h5,
+    .card__plan-benifit li {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .card__plan-benifit li {
+        height: 39px;
     }
 }

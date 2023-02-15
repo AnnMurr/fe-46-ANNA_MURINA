@@ -4,7 +4,7 @@
 }
 
 .header {
-    padding: 54px 0;  
+    padding: 54px 0;
 }
 
 .header h2 {
@@ -75,6 +75,7 @@
     font-weight: 700;
     outline: none;
 }
+
 .btn:focus {
     border: 3px solid #fff;
 }
@@ -88,7 +89,7 @@
     line-height: 20px;
 }
 
-.button_contact {  
+.button_contact {
     width: 370px;
 }
 
@@ -104,7 +105,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    
+
     .header,
     .banner__header {
         padding: 46px 0;
@@ -118,410 +119,50 @@
     .button_contact {
         width: 318px;
     }
+
+    .axure .btn {
+        width: 183px;
+        height: 50px;
+    }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 768px) {
+
+    .container {
+        padding: 0 16px;
+    }
+
+    .button_contact {
+        width: 288px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .container {
+        padding: 0;
+        max-width: 288px;
+    }
+
+    .axure {
+        flex: 1;
+    }
+
+    .btn,
+    .axure .btn {
+        width: 100%;
+    }
+
+    .hdeear {
+        padding: 49.5px 0;
+    }
+
+    .button,
+    .btn_banner {
+        height: 50px;
+    }
+
+    .button_baner {
+        height: 60px;
+    }
+}
