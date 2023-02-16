@@ -39,7 +39,6 @@ nav .navigation {
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    
     cursor: pointer;
     transition: all 0.5s ease;
 }
@@ -74,7 +73,7 @@ nav .navigation {
 
 .axure__heading {
     padding: 51px 0 55px 0;
-    max-width: 670px; 
+    max-width: 670px;
 }
 
 .axure__heading h1 {
@@ -148,12 +147,8 @@ input::placeholder {
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    color: #BDBDBD; 
+    color: #BDBDBD;
 }
-
-
-
-
 
 .social__bacgraund {
     background-color: #F8EFEF;
@@ -211,7 +206,90 @@ input::placeholder {
     border-bottom: 2px solid rgb(204 204 204);
 }
 
+.menu__burger {
+    display: none;
+    width: 24px;
+    height: 18px;
+    margin-left: auto;
+}
 
+.menu__burger button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.menu__burger button span {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+}
+
+.menu__burger.menu__burger_active {
+    display: block;
+    background: url(../img/ext.svg) no-repeat center;
+}
+
+.menu__burger.menu__burger_active span {
+    display: none;
+}
+
+.sidebar {
+    display: none;
+    transform: translateX(-100%);
+    position: absolute;
+    left: 0;
+    height: 100vh;
+    background-color: #000;
+    transition: all 0.5s ease;
+}
+
+.sidebar.sidebar_active {
+    transform: translateX(0);
+}
+
+.sidebar__nav li {
+    width: 100%;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar__nav li a {
+    font-family: 'Open Sans';
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+.dots {
+    display: none;
+    width: 130px;
+    justify-content: space-between;
+    height: 10px;
+}
+
+.dots__item {
+    width: 10px;
+	height: 10px;
+	background-color: transparent;
+    border: 1px solid #86878B;
+	border-radius: 50px;
+}
+
+.dots__item.dots__item_active {
+	background-color: #86878B;
+}
 
 @media screen and (max-width: 1024px) {
 
@@ -237,18 +315,13 @@ input::placeholder {
         line-height: 42px;
     }
 
-    .logo {
+    .menu .logo {
         width: 183px;
         height: 75px;
     }
 
     .axure__heading {
         max-width: 454px;
-    }
-
-    .axure .btn {
-        width: 183px;
-        height: 50px;
     }
 
     .axure .divider_white {
@@ -280,9 +353,9 @@ input::placeholder {
 
     .menu__container,
     .banner-first .container {
-        max-width: 909px;
+        max-width: 920px;
         margin: 0 0 0 auto;
-        padding-right: 20px;
+        padding: 0 35px 0 20px;
     }
 
     .axure__text h5,
@@ -291,15 +364,15 @@ input::placeholder {
     .block-top__subtitle h5,
     .block-bottom__text h5,
     .pricing__subtitle h5,
-    .card__text h5, 
+    .card__text h5,
     .reviews__text h5,
-    .box__info-proffesion h5 ,
+    .box__info-proffesion h5,
     .banner__text h5,
     .contacts__text h5,
     .copyright h5,
-    .box__text h5  {
+    .box__text h5 {
         font-size: 14px;
-        line-height: 16px;  
+        line-height: 16px;
     }
 
     .contacts .header h2 {
@@ -312,7 +385,7 @@ input::placeholder {
     .card__info-name h4,
     .box__info-name h4 {
         font-size: 18px;
-        line-height: 25px;        
+        line-height: 25px;
     }
 
     .tabs__heading h3 {
@@ -325,5 +398,148 @@ input::placeholder {
         font-size: 24px;
         line-height: 28px;
     }
+}
 
+@media screen and (max-width: 924px) {
+
+    .blocks {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .axure {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .axure .logo {
+        display: none;
+    }
+
+    .form__wrapper {
+        margin-top: 56px;
+    }
+
+    .banner-first .container {
+        padding-right: 0;
+    }
+
+    .social__block {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .form__wrapper {
+        width: 288px;
+    }
+
+    .form__inputs {
+        padding: 0px 28px 51px 20px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .menu__burger {
+        display: block;
+    }
+
+    .sidebar {
+        display: block;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .social__text h5 {
+        font-size: 14px;
+    }
+
+    .contacts .header h2 {
+        font-weight: 400;
+    }
+
+    .form__heading h4,
+    .box__info-name h4 {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .tabs__heading h3 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .about .header h2 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .block-top__subtitle h5,
+    .box__info-proffesion h5,
+    .tabs__text h5 {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .menu .logo {
+        width: 130px;
+        height: 56px;
+    }
+
+    .menu {
+        height: 56px;
+    }
+
+    .banner-first__wrapper {
+        padding: 102px 0 50px 0;
+    }
+
+    .banner-first .container {
+        padding: 0;
+        max-width: 288px;
+        margin: 0 auto;
+    }
+
+    .axure__text {
+        max-width: 100%;
+        padding: 42px 0;
+    }
+
+    .form__heading {
+        padding: 35.5px 0;
+    }
+
+    .social__block {
+        padding: 31px 0;
+    }
+
+    .social__icons {
+        padding-top: 19px;
+    }
+
+    .social__icon img {
+        width: 28px;
+        height: 26px;
+    }
+
+    .social__text h5 {
+        white-space: pre-line;
+    }
+
+    .dots {
+        display: flex;
+    }
 }

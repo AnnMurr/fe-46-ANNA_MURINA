@@ -4,11 +4,14 @@
 }
 
 .contacts__text h5 {
-    padding: 40px 0 89px 0;
     color: #86878B;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+}
+
+.contacts__text {
+    padding: 40px 0 89px 0;
 }
 
 .contacts__inputs {
@@ -43,7 +46,7 @@
     width: 100%;
     border-bottom: 1px solid #BDBDBD;
     height: 38px;
-    padding-bottom: 16px; 
+    padding-bottom: 16px;
 }
 
 .contacts__form input::placeholder,
@@ -52,7 +55,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    color: #BDBDBD; 
+    color: #BDBDBD;
 }
 
 textarea {
@@ -66,3 +69,14 @@ textarea {
     resize: none;
 }
 
+
+@media screen and (max-width: 576px) {
+
+    .contacts__wrapper {
+        padding-top: 0;
+    }
+
+    .contacts__text {
+        padding: 24px 0 64px 0;
+    }
+}
