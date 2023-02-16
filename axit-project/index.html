@@ -448,7 +448,7 @@
                     </div>
                 </div>
                 <div class="reviews__boxes">
-                    <div class="box box_active">
+                    <div class="box box_active" data-content="1">
                         <div class="box__message">
                             <div class="box__text">
                                 <h5>Lorem ipsum dolor sit amet,
@@ -475,7 +475,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box" data-content="2">
                         <div class="box__message">
                             <div class="box__text">
                                 <h5>Lorem ipsum dolor sit amet,
@@ -502,7 +502,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box" data-content="3">
                         <div class="box__message">
                             <div class="box__text">
                                 <h5>Lorem ipsum dolor sit amet,
@@ -529,10 +529,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="dots">
-                    <span class="dots__item dots__item_active"></span>
-                    <span class="dots__item"></span>
-                    <span class="dots__item"></span>
+                    <div class="dots" id="dots">
+                    <span class="dots__item dots__item_active" data-btn="1"></span>
+                    <span class="dots__item"  data-btn="2"></span>
+                    <span class="dots__item"  data-btn="3"></span>
                     </div>    
                 </div>        
             </div>
@@ -636,5 +636,6 @@
         </div>
     </footer>
     <script src="./core/index.js"></script>
+    <script src="./core/slider.js"></script>
 </body>
 </html>
