@@ -1,6 +1,6 @@
 const sidebar = document.querySelector(".sidebar");
 const menuBurger = document.querySelector(".menu__burger");
-const sidebarBtn = document.getElementById("sidebar__nav");
+const sidebarBtn = document.querySelector(".sidebar__nav");
 
 const onBorgerClick = (e) => {
     sidebar.classList.toggle("sidebar_active");
@@ -8,7 +8,7 @@ const onBorgerClick = (e) => {
 }
 
 sidebarBtn.addEventListener('click', e => {
-    onBorgerClick();
+    onBorgerClick(e);
 })
 
 
