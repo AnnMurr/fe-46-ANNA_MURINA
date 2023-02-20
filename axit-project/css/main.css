@@ -150,6 +150,7 @@
 
     .btn,
     .axure .btn {
+        max-width: 287px;
         width: 100%;
     }
 
