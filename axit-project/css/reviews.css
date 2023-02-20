@@ -17,6 +17,10 @@
     max-width: 370px;
 }
 
+.box:nth-child(2) {
+    margin: 0 30px;
+}
+
 .box__text {
     background-color: #E2E2E2;
     border-radius: 10px;
@@ -218,6 +222,10 @@
 
     .reviews__header .header {
         padding: 33px 0;
+    }
+
+    .box:nth-child(2) {
+        margin: 0 0 30px 0;
     }
 
     .box__text {

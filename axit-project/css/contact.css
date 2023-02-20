@@ -69,6 +69,20 @@ textarea {
     resize: none;
 }
 
+@media screen and (max-width: 1024px) {
+
+    .contacts__inputs {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contacts__inputs {
+        padding: 0;
+    }
+
+}
+
 
 @media screen and (max-width: 576px) {
 
