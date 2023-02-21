@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="video">
+        <div class="container">
+            <div class="wrapper">
+                <div class="block">
+                    <div class="block_wrap">
+                        <video class="block__item" src="./video/DreamWorks.mp4" type="video/mp4"></video>
+                        <div class="controls">
+                            <div class="controls__play">
+                                <button>
+                                    <img class="controls__play-btn" src="./img/play.svg" alt="play">
+                                </button>
+                            </div>
+                            <div class="controls__volume">
+                                <button class="controls__volume-btn">
+                                    <img src="./img/volume.svg" alt="volume">
+                                </button>
+                                <div class="controls__volume-panel">
+                                    <input type="range">
+                                </div>
+                            </div>
+                            <div class="controls__progress">
+                                <input class="controls__progress-bar" type="range">
+                            </div>
+                            <div class="controls__settings">
+                                <button class="controls__settings-btn">
+                                    <img src="./img/settings.svg" alt="settings">
+                                </button>
+                            </div>
+                            <div class="popup">
+                                <div class="popup__wrap">
+                                    <button class="popup__item-quality">
+                                        <div class="popup__item-wrap">
+                                            <div class="popup__icon">
+                                                <img src="./img/quality.svg" alt="icon">
+                                            </div>
+                                            <h5>Quality</h5>
+                                            <div class="popup__arrow">
+                                                <img src="./img/page.svg">
+                                            </div>
+                                        </div>
+                                    </button>
+                                    <button class="popup__item-speed">
+                                        <div class="popup__item-wrap">
+                                            <div class="popup__icon">
+                                                <img src="./img/speed.svg" alt="icon">
+                                            </div>
+                                            <div>
+                                                <h5>Speed</h5>
+                                            </div>
+                                            <div class="popup__arrow">
+                                                <img src="./img/page.svg">
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="controls__fullscreen">
+                                <button class="controls__fullscreen-btn">
+                                    <img src="./img/fullscreen.svg" alt="fullscreen">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./core/index.js"></script>
+
+</body>
+
+</html>
