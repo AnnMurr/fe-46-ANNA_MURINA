@@ -224,7 +224,7 @@ button {
     justify-content: space-between;
     align-items: end;
     position: relative;
-    margin-right: 20px;
+    margin-right: 5px;
 }
 
 .body__page {
@@ -371,6 +371,16 @@ button {
     color: var(--white-color);
 }
 
+iframe {
+    width: 375px;
+    height: 398px;
+    mask-image: url(../img/mask.png);
+    -webkit-mask-image: url(../img/mask.png);
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+}
+
+
 @media screen  and (max-width: 1200px) {
     .weather__container {
         max-width: 960px;
@@ -428,7 +438,7 @@ button {
     }
 
     .body__block {
-        width: 120px;
+        width: 100px;
         height: 90px;
     }
 
@@ -444,8 +454,15 @@ button {
         top: 30px;
     }
 
-    .body__map-page {
-        max-width: 250px;
+    .body__map-page,
+    iframe {
+        width: 210px;
+        height: 335px;
+    }
+
+    iframe {
+        mask-image: url(../img/mask-2.png);
+        -webkit-mask-image: url(../img/mask-2.png);
     }
 
     .body__map {
@@ -573,7 +590,7 @@ button {
     }
 
     .body__days {
-        max-width: 340px;
+        max-width: 320px;
     }   
 }
 
