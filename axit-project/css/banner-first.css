@@ -16,6 +16,7 @@
 .menu .logo {
     width: 183px;
     height: 74px;
+    cursor: pointer;
 }
 
 .menu__wrapper {
@@ -423,7 +424,8 @@ input::placeholder {
         margin-top: 56px;
     }
 
-    .banner-first .container {
+    .banner-first .container,
+    .menu__container {
         padding-right: 0;
     }
 
@@ -435,6 +437,10 @@ input::placeholder {
 }
 
 @media screen and (max-width: 768px) {
+
+    .menu__container {
+        padding-right: 35px;
+    }
 
     .form__wrapper {
         width: 288px;
