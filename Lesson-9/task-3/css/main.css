@@ -1,0 +1,29 @@
+.content__video {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.video {
+    max-width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    object-fit: cover;
+}
+
+.audio {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+@media screen and (max-width: 520px) {
+    .audio {
+        width: 225px;
+        height: 40px;
+    }
+}
