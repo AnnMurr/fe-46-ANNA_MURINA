@@ -230,7 +230,7 @@ button {
 .body__page {
     position: absolute;
     top: 0;
-    right: 108px;
+    right: 18%;
     animation: clouds 10s linear;
     animation-direction: alternate;
     animation-iteration-count: infinite;  
@@ -239,29 +239,32 @@ button {
 @keyframes clouds {
     0% {
         transform: rotate(0deg);
-        right: 108px;
+        right: 18%;
     }
 
     20% {
         transform: rotate(-5deg);
-        right: 120px;
+        right: 21%;
     }
 
     40% {
         transform: rotate(0deg);
-        right: 108px;
+        right: 18%;
     }
+    
     60% {
         transform: rotate(5deg);
-         right: 120px;
+         right: 21%;
     }
+
     80% {
         transform: rotate(0deg);
-        right: 108px;
+        right: 18%;
     }
+
     100% {
         transform: rotate(-5deg);
-         right: 120px;
+         right: 21%;
     }
 }
 
@@ -500,64 +503,6 @@ iframe {
     .body__page {
         width: 80px;
         right: 10px;
-    }
-
-    .body__page {
-        right: 10px;
-        animation: clouds 15s linear;
-        animation-direction: alternate;
-        animation-iteration-count: infinite; 
-    }
-    
-    @keyframes clouds {
-        0% {
-            transform: rotate(0deg);
-            right: 10px;
-        }
-    
-        20% {
-            transform: rotate(-5deg);
-            right: 23px;
-        }
-
-        30% {
-            transform: rotate(0deg);
-            right: 23px;
-        }
-    
-        40% {
-            transform: rotate(5deg);
-            right: 10px;
-        }
-
-        50% {
-            transform: rotate(0deg);
-            right: 10px;
-        }
-
-        60% {
-            transform: rotate(-5deg);
-             right: 23px;
-        }
-
-        70% {
-            transform: rotate(0deg);
-             right: 23px;
-        }
-        80% {
-            transform: rotate(5deg);
-            right: 10px;
-        }
-
-        90% {
-            transform: rotate(0deg);
-            right: 10px;
-        }
-
-        100% {
-            transform: rotate(-5deg);
-             right: 23px;
-        }
     }
 
     .body__box {
