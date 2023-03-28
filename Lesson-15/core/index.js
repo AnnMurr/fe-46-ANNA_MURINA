@@ -9,11 +9,11 @@ console.log(additionResult);
 
 // task 2
 
-numberOfsecondsInMinute = 60;
-numberOfminutesInHour = 60;
-numberOfhoursInDay = 24;
-numberOfdaysInYear = 365;
-myAge = 24;
+let numberOfsecondsInMinute = 60,
+    numberOfminutesInHour = 60,
+    numberOfhoursInDay = 24,
+    numberOfdaysInYear = 365,
+    myAge = 24,
 myAgeInSeconds = numberOfsecondsInMinute * numberOfminutesInHour * numberOfhoursInDay  * numberOfdaysInYear * myAge;
 console.log(myAgeInSeconds);
 
